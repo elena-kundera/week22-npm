@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "comment": "Hello",
+      "id": 4
+    },
+    {
+      "comment": "Hello\nI strongly disagree",
+      "id": 5
+    },
+    {
+      "comment": "Hello! ",
+      "id": 6
+    },
+    {
+      "comment": "Hello",
+      "id": 7
+    },
+    {
+      "comment": "Hello\nI disagree",
+      "id": 8
+    },
+    {
+      "comment": "Hello",
+      "id": 9
+    },
+    {
+      "comment": "Me too",
+      "id": 10
+    },
+    {
+      "comment": "Laast try",
+      "id": 11
+    },
+    {
+      "comment": "one more last try",
+      "id": 12
+    },
+    {
+      "comment": "and one more",
+      "id": 13
+    },
+    {
+      "comment": "AND IT FINALLY WORKS!!!!",
+      "id": 14
+    },
+    {
+      "comment": "!!!!!!!!!!!",
+      "id": 15
+    },
+    {
+      "comment": "тык",
+      "id": 16
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

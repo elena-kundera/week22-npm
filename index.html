@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.scss">
+    <title>NPM</title>
+</head>
+<body>
+    <h1>My first NPM</h1>
+
+    <div id="date"></div>
+
+    <div id="chart" style="width: 800px">
+        <canvas id="acquisitions"></canvas>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+<h3>Добавить комментарий:</h3>
+<form id="form">
+<textarea name="comment" id="commentInput" cols="30" rows="10"></textarea>
+<button id="btn">Отправить отзыв</button>
+</form>
+<div id="commentContainer"></div>
+
+<br>
+<br>
+<br>
+<br>
+
+    <script type="module" src="bundle.js"></script>
+    <script type="module" src="./src/acquisitions.js"></script>
+    
+</body>
+</html>

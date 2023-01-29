@@ -1,0 +1,25 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npm.js",
+  "scripts": {
+    "front-end": "parcel index.html --open --port 3000",
+    "back-end": "json-server --watch db.json --port 3001",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.6.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart": "^0.1.2",
+    "chart.js": "^4.2.0",
+    "json-server": "^0.17.1",
+    "moment": "^2.29.4",
+    "sass": "^1.57.1"
+  }
+}
